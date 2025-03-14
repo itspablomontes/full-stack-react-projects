@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		// Target latest ECMAScript version
+		"target": "ESNext",
+		// Use ESNext module system (compatible with Node.js ESM)
+		"module": "ESNext",
+		// Ensure Node.js module resolution
+		"moduleResolution": "Node",
+		// Output directory for compiled files
+		"outDir": "./dist",
+		// Root directory of source files
+		"rootDir": "./src",
+		// Enable strict type checking
+		"strict": true,
+		// Ensure proper null/undefined handling
+		"strictNullChecks": true,
+		// Enforce consistent file naming
+		"forceConsistentCasingInFileNames": true,
+		// Allow synthetic default imports (useful for some libraries)
+		"allowSyntheticDefaultImports": true,
+		// Enable ES Module interop
+		"esModuleInterop": true,
+		// Skip type checking of library files
+		"skipLibCheck": true,
+		// Generate source maps for debugging
+		"sourceMap": true,
+		// Ensure compatibility with Node.js types
+		"types": ["node"],
+		// Use Node.js-specific ECMAScript standard library
+		"lib": ["ESNext"]
+	},
+	// Include source files
+	"include": ["src/**/*"],
+	// Exclude unnecessary files
+	"exclude": ["node_modules", "dist"]
+}
